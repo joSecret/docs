@@ -45,10 +45,11 @@ export type Sidebar = Record<
   typeof KNOWN_LANGUAGE_CODES[number],
   Record<string, { text: string; link: string }[]>
 >;
+
 export const SIDEBAR: Sidebar = {
   en: {
     'Section Header': [
-      { text: 'Introduction', link: 'docs/en/introduction' },
+      { text: 'Introduction', link: 'en/introduction' },
       { text: 'Page 2', link: 'en/page-2' },
       { text: 'Page 3', link: 'en/page-3' },
     ],
