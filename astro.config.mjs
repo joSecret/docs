@@ -8,6 +8,6 @@ export default defineConfig({
     preact(),
     react(),
   ],
-  site: 'https://joSecret.github.io',
+  site: 'https://josecret.github.io',
   base: '/docs',
 });
